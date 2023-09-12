@@ -1,21 +1,30 @@
 body{
     width: 1440px;
+    height: 900px;
     margin: 0;
 }
 header img{
     width: 100%;
-    height: 800px;
     filter: brightness(0.3);
 }
+.introduction{
+    height: 100%;
+}
+nav {
+    height: 100%;
+}
 .navigation{
+    position: relative;
     display: flex;
     justify-content: flex-end;
     width: 95%;
     height: 60px;
+    bottom: 800px;
+    z-index: 4;
 }
 .navButton {
     height: 100%;
-    color: black;
+    color: white;
     text-decoration: none;
     list-style: none;
     margin-left: 4%;

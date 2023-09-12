@@ -10,9 +10,6 @@ header img{
 .introduction{
     height: 100%;
 }
-nav {
-    height: 100%;
-}
 .navigation{
     position: relative;
     display: flex;

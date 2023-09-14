@@ -11,10 +11,16 @@ header {
     background-image: url('/images/code-1076533_1920.jpg');
 }
 h1 {
+    width: 70%;
+    text-align: center;
     position: relative;
     color: white;
+    background-color: black;
     top: 250px;
     left: 300px;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 20px 0 20px 0;
 }
 .navigation{
     display: flex;
@@ -32,6 +38,7 @@ h1 {
     width: 15%;
     height: 40px;
     color: white;
+    background-color: black;
     text-decoration: none;
     list-style: none;
     border: 2px solid white;

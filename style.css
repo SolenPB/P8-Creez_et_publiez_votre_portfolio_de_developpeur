@@ -3,26 +3,33 @@ body{
     height: 900px;
     margin: 0;
 }
-header img{
+header {
     width: 100%;
-    filter: brightness(0.3);
-}
-.introduction{
-    height: 100%;
+    height: 900px;
+    background-image: url('/images/code-1076533_1920.jpg');
 }
 .navigation{
-    position: relative;
     display: flex;
     justify-content: flex-end;
-    width: 95%;
+    width: 97%;
     height: 60px;
     bottom: 800px;
-    z-index: 4;
+    margin: 0;
+    padding-top: 30px;
 }
 .navButton {
-    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 15%;
+    height: 40px;
     color: white;
     text-decoration: none;
     list-style: none;
-    margin-left: 4%;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-right: 25px;
+}
+.navButton li {
+    width: 100%;
 }

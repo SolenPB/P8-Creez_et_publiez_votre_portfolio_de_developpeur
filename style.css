@@ -4,9 +4,17 @@ body{
     margin: 0;
 }
 header {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 900px;
+    height: 750px;
     background-image: url('/images/code-1076533_1920.jpg');
+}
+h1 {
+    position: relative;
+    color: white;
+    top: 250px;
+    left: 300px;
 }
 .navigation{
     display: flex;

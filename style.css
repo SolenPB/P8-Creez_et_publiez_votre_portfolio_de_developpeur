@@ -2,6 +2,7 @@ body{
     width: 1440px;
     height: 900px;
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 header {
     display: flex;

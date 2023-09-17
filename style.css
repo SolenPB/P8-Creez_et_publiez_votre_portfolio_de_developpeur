@@ -82,18 +82,28 @@ h1 {
     color: blue;
     font-size: 36px;
     margin: 0;
+    padding-left: 2%;
 }
 .diploma{
     display: flex;
     flex-direction: column;
-    margin: 30px 0 0 70px;
+    margin: 30px 0 0 6%;
+}
+.oc_description{
+    display: flex;
 }
 .oc_image{
     width: 12%;
     border-radius: 40px;
     left: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .r2_image{
     width: 11%;
+}
+#contact{
+    height: 300px;
+}
+#contactIcon{
+    width: 5%;
 }

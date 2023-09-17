@@ -30,11 +30,11 @@ h3{
     width: 50%;
 }
 .navigation{
+    position: fixed;
     display: flex;
     justify-content: flex-end;
     width: 97%;
     height: 60px;
-    bottom: 800px;
     margin: 0;
     padding-top: 30px;
 }

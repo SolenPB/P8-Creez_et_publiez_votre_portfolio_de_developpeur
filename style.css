@@ -22,6 +22,9 @@ h1 {
     border-radius: 30px;
     padding: 20px 0 20px 0;
 }
+h3{
+    margin: 0;
+}
 .title{
     margin: 0;
     width: 50%;
@@ -47,6 +50,7 @@ h1 {
     list-style: none;
     border: 2px solid white;
     border-radius: 30px;
+    padding: 0 2% 0 2%;
     margin-right: 25px;
 }
 .navButton li {
@@ -75,7 +79,7 @@ h1 {
     margin: 0;
 }
 #skills{
-    height: 850px;
+    height: 750px;
     margin-top: 30px;
 }
 .skillsTitle{
@@ -87,10 +91,12 @@ h1 {
 .diploma{
     display: flex;
     flex-direction: column;
-    margin: 30px 0 0 6%;
+    margin: 50px 0 0 6%;
 }
-.oc_description{
+#ocDescription{
     display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
 }
 .oc_image{
     width: 12%;
@@ -100,6 +106,7 @@ h1 {
 }
 .r2_image{
     width: 11%;
+    margin-bottom: 20px;
 }
 #contact{
     height: 300px;

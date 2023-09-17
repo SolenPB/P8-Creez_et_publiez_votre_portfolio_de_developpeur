@@ -50,13 +50,12 @@ h3{
     list-style: none;
     border: 2px solid white;
     border-radius: 30px;
-    padding: 0 2% 0 2%;
+    padding: 0 1% 0 1%;
     margin-right: 25px;
 }
 .navButton li {
     width: 100%;
 }
-
 #presentation{
     width: 100%;
     height: 750px;
@@ -71,7 +70,7 @@ h3{
 }
 .description{
     position: relative;
-    top: 300px;
+    top: 400px;
     left: 500px;
     width: 40%;
     text-align: center;

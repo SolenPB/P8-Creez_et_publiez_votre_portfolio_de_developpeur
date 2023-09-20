@@ -107,6 +107,18 @@ h1 {
 .portTitle{
     font-size: 36px;
 }
+.projects{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding:40px 0 40px 5%;
+}
+.projectItem1{
+    padding-left: 3%;
+}
+.projectItem2{
+    padding-left: 8.5%;
+}
 #contact{
     background-color: #fdd875;
     color: black;

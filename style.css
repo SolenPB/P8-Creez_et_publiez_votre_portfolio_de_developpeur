@@ -127,4 +127,13 @@ h1 {
 .contactIcon{
     width: 30%;
     display: flex;
+    padding:40px 0 0 5%;
+}
+#mailIcon{
+    width: 10%;
+    font-size: 20px;
+}
+#inIcon{
+    width: 10%;
+    font-size: 20px;
 }

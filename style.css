@@ -68,6 +68,7 @@ h1 {
     width: 14%;
     height: 200px;
     background-color: white;
+    border-radius: 20px;
     margin-top: 40px;
 }
 .description{

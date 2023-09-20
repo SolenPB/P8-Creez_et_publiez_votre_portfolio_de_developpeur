@@ -108,10 +108,15 @@ h1 {
 .portTitle{
     font-size: 36px;
 }
+#projectList{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
 .projects{
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     padding:40px 0 40px 0;
 }
@@ -119,7 +124,7 @@ h1 {
     padding-left: 5%;
 }
 .projectItem2{
-    padding-left: 8.5%;
+    padding-left: 12.75%;
 }
 #contact{
     background-color: #fdd875;

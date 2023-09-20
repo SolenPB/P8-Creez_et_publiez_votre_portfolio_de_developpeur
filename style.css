@@ -111,11 +111,12 @@ h1 {
 .projects{
     width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding:40px 0 40px 5%;
+    padding:40px 0 40px 0;
 }
 .projectItem1{
-    padding-left: 3%;
+    padding-left: 5%;
 }
 .projectItem2{
     padding-left: 8.5%;
@@ -128,13 +129,14 @@ h1 {
 .contactIcon{
     width: 30%;
     display: flex;
+    align-items: center;
     padding:40px 0 0 5%;
 }
 #mailIcon{
     width: 10%;
-    font-size: 20px;
+    font-size: 42px;
 }
 #inIcon{
     width: 10%;
-    font-size: 20px;
+    font-size: 44px;
 }

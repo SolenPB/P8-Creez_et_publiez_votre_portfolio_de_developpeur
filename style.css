@@ -89,10 +89,13 @@ h1 {
     flex-direction: column;
     margin: 50px 0 0 6%;
 }
+.skillsTitle{
+    width: 40%;
+}
 #ocDescription{
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .oc_image{
     width: 12%;
@@ -100,9 +103,12 @@ h1 {
     left: 150px;
     margin-bottom: 20px;
 }
+.r2{
+    display: flex;
+}
 .r2_image{
-    width: 11%;
-    margin-bottom: 20px;
+    width: 20%;
+    margin-bottom: 10px;
 }
 #portfolio{
     background: linear-gradient(#0f90d9, #22bcff);

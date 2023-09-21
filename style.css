@@ -92,6 +92,9 @@ h1 {
 .skillsTitle{
     width: 40%;
 }
+.important{
+    font-size: larger;
+}
 #ocDescription{
     display: flex;
     flex-direction: column;

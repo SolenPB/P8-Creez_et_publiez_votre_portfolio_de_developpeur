@@ -92,13 +92,16 @@ h1 {
 .skillsTitle{
     width: 40%;
 }
+.skillsDiploma{
+    width: 40%;
+}
+.skillsDetails{
+    display: flex;
+    align-items: center;
+}
 .important{
     font-size: larger;
-}
-#ocDescription{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;
+    text-decoration: underline;
 }
 .oc_image{
     width: 12%;
@@ -136,6 +139,9 @@ h1 {
 }
 .projectItem2{
     padding-left: 12.75%;
+}
+#about{
+    background-color: #22bcff;
 }
 #contact{
     background: linear-gradient(#22bcff, #fdd875);

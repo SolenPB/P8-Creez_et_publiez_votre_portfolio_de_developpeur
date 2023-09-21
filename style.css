@@ -105,7 +105,7 @@ h1 {
     margin-bottom: 20px;
 }
 #portfolio{
-    background: linear-gradient(#0f90d9, #fdd875);
+    background: linear-gradient(#0f90d9, #22bcff);
 }
 .portTitle{
     font-size: 36px;
@@ -129,8 +129,7 @@ h1 {
     padding-left: 12.75%;
 }
 #contact{
-    background-color: #fdd875;
-    color: black;
+    background: linear-gradient(#22bcff, #fdd875);
     padding-bottom: 80px;
 }
 .contactIcon{

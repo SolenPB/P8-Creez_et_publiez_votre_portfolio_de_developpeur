@@ -167,6 +167,11 @@ h1 {
 }
 .soft{
     width: 10%;
+    padding-left: 6%;
+}
+#vscode{
+    width: 5%;
+    padding-left: 3%;
 }
 #contact{
     background: linear-gradient(#22bcff, #fdd875);

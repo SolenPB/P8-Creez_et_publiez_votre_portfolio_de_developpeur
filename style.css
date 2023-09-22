@@ -103,14 +103,14 @@ h1 {
     font-size: larger;
     text-decoration: underline;
 }
+.school{
+    display: flex;
+}
 .oc_image{
-    width: 12%;
+    width: 20%;
     border-radius: 40px;
     left: 150px;
     margin-bottom: 20px;
-}
-.r2{
-    display: flex;
 }
 .r2_image{
     width: 20%;

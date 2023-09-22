@@ -144,6 +144,10 @@ h1 {
 .projectItem2{
     padding-left: 12.75%;
 }
+.projectTitle{
+    display: flex;
+    flex-direction: column;
+}
 .demonstration{
     display: flex;
     justify-content: center;
@@ -169,7 +173,7 @@ h1 {
 #about{
     background-color: #22bcff;
 }
-.langtools{
+.detailTitle{
     display: flex;
     align-items: center;
     padding-left: 2%;

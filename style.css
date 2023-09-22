@@ -200,6 +200,19 @@ h1 {
     width: 10%;
     padding-left: 6%;
 }
+.europ{
+    width: 30%;
+    margin-left: 5%;
+}
+.europ img{
+    width: 60%;
+}
+.asia{
+    margin-left: 5%;
+}
+.asia img{
+    width: 50%;
+}
 #vscode{
     width: 5%;
     padding-left: 3%;

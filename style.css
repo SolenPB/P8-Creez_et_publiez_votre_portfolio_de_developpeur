@@ -150,6 +150,24 @@ h1 {
 #about{
     background-color: #22bcff;
 }
+.langtools{
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+.language{
+    width: 5%;
+    border-radius: 5px;
+    padding-left: 5%;
+}
+.softwares{
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+.soft{
+    width: 10%;
+}
 #contact{
     background: linear-gradient(#22bcff, #fdd875);
     padding-bottom: 80px;

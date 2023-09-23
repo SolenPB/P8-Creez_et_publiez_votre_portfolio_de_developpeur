@@ -201,6 +201,7 @@ h1 {
     width: 80%;
     display: flex;
     align-items: center;
+    margin-top: 30px;
 }
 .languageList{
     width: 50%;
@@ -226,41 +227,62 @@ h1 {
     width: 10%;
     padding-left: 6%;
 }
+.flags{
+    display: flex;
+    margin-left: 60px;
+    align-items: center;
+}
 .europ{
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
     margin-left: 5%;
 }
 .europ img{
-    width: 60%;
+    width: 100%;
 }
 .asia{
-    margin-left: 5%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 0 13px 4.5%;
 }
 .asia img{
-    width: 50%;
+    width: 90%;
+}
+.level{
+    margin-top: 20px;
+}
+.notion{
+    margin-top: 19px;
 }
 #vscode{
     width: 5%;
     padding-left: 3%;
 }
-.bow{
+.hobbies{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.hobbyIcon{
     display: flex;
     justify-content: center;
-    width: 20%;
+    width: 30%;
 }
-.bow img{
-    width: 70%;
+.bow{
+    width: 95%;
+    height: 95%;
+    margin-right: 20px;
 }
 .joystick{
-    display: flex;
-    justify-content: center;
-    width: 40%;
+    width: 100%;
 }
-.joystick img{
-    width: 40%;
-}
-.paint img{
-    width: 40%;
+.paint{
+    width: 100%;
 }
 #contact{
     background: linear-gradient(#22bcff, #fdd875);

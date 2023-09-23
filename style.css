@@ -30,6 +30,9 @@ h4{
     text-decoration: underline;
     font-size: larger;
 }
+.shadow{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+}
 .navigation{
     position: fixed;
     display: flex;
@@ -52,7 +55,6 @@ h4{
     list-style: none;
     border: 2px solid white;
     border-radius: 30px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
     padding: 0 1% 0 1%;
     margin-right: 25px;
 }
@@ -82,7 +84,6 @@ h1 {
     background-color: white;
     border-radius: 20px;
     margin-top: 40px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
 }
 .description{
     width: 45%;
@@ -135,9 +136,6 @@ h1 {
 #portfolio{
     background: linear-gradient(#0f90d9, #22bcff);
 }
-.portTitle{
-    font-size: 36px;
-}
 #projectList{
     width: 70%;
     display: flex;
@@ -185,7 +183,6 @@ h1 {
     height: 300px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
     margin: 20px 0 0 4%;
 }
 .scan{

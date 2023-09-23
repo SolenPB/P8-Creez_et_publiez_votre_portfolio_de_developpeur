@@ -270,27 +270,47 @@ h1 {
     justify-content: space-between;
     margin-left: 10%;
 }
-.hobbyIcon{
+.bowIcon{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 55%;
+    margin-right: 15%;
+}
+.joystickIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.paintIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin-left: 10%;
 }
 .bow{
-    width: 100%;
+    width: 95%;
     border-radius: 150px;
-    margin-right: 15%;
 }
 .joystick{
     width: 100%;
 }
 .paint{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
+    text-align: center;
 }
 .arts{
     margin-top: 20px;
+}
+.archery{
+    text-align: center;
+    margin-top: 40px;
 }
 #contact{
     background: linear-gradient(#22bcff, #fdd875);

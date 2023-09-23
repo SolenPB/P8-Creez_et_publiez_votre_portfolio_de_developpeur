@@ -212,7 +212,7 @@ h1 {
     background-color: white;
     border: 4px solid #453bdb;
     border-radius: 40px;
-    margin-left: 2%;
+    margin-left: 18%;
 }
 .language{
     width: 10%;
@@ -229,7 +229,8 @@ h1 {
 }
 .flags{
     display: flex;
-    margin-left: 60px;
+    margin-left: 10%;
+    justify-content: space-between;
     align-items: center;
 }
 .europ{
@@ -237,18 +238,18 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 10%;
+    width: 20%;
     margin-left: 5%;
 }
 .europ img{
     width: 100%;
 }
 .asia{
-    width: 10%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:0 0 13px 4.5%;
+    margin:0 0 13px 5%;
 }
 .asia img{
     width: 90%;
@@ -267,15 +268,18 @@ h1 {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-left: 10%;
 }
 .hobbyIcon{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 30%;
 }
 .bow{
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    border-radius: 150px;
     margin-right: 20px;
 }
 .joystick{
@@ -283,6 +287,9 @@ h1 {
 }
 .paint{
     width: 100%;
+}
+.arts{
+    margin-top: 60px;
 }
 #contact{
     background: linear-gradient(#22bcff, #fdd875);

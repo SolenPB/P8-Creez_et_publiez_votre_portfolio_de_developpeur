@@ -148,6 +148,17 @@ h1 {
     display: flex;
     flex-direction: column;
 }
+.point{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.plus{
+    width: 10%;
+}
+.minus{
+    width: 13%;
+}
 .demonstration{
     display: flex;
     justify-content: center;

@@ -287,9 +287,10 @@ h1 {
 }
 .paint{
     width: 100%;
+    margin-top: 50px;
 }
 .arts{
-    margin-top: 60px;
+    margin-top: 20px;
 }
 #contact{
     background: linear-gradient(#22bcff, #fdd875);

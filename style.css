@@ -19,6 +19,10 @@ h2{
     padding: 40px 0 0 2%;
     font-size: 36px;
 }
+h4{
+    text-decoration: underline;
+    font-size: larger;
+}
 .navigation{
     position: fixed;
     display: flex;
@@ -81,7 +85,6 @@ h1 {
     margin-top: 35px;
 }
 #skills{
-    height: 750px;
     background: linear-gradient(#1d63f0, #0f90d9);
 }
 .diploma{
@@ -171,10 +174,12 @@ h1 {
     background-color: #22bcff;
 }
 .detailTitle{
+    padding-left: 2%;
+}
+.detailResume{
     width: 80%;
     display: flex;
     align-items: center;
-    padding-left: 2%;
 }
 .languageList{
     width: 50%;
@@ -216,6 +221,25 @@ h1 {
 #vscode{
     width: 5%;
     padding-left: 3%;
+}
+.bow{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+.bow img{
+    width: 70%;
+}
+.joystick{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+.joystick img{
+    width: 40%;
+}
+.paint img{
+    width: 40%;
 }
 #contact{
     background: linear-gradient(#22bcff, #fdd875);

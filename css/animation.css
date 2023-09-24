@@ -1,0 +1,17 @@
+
+#presentation{
+    animation: textDown 1200ms forwards ease-in-out;
+    transform-origin: top;
+}
+@keyframes textDown {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}

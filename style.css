@@ -218,14 +218,26 @@ h1 {
     width: 10%;
     border-radius: 5px;
 }
-.softwares{
+.software{
     display: flex;
     align-items: center;
-    padding-left: 2%;
+    margin-left: 8%;
+}
+.softwareTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
 }
 .soft{
-    width: 10%;
-    padding-left: 6%;
+    width: 70%;
+}
+.vscode{
+    width: 40%;
+}
+#vscodeTitle{
+    position: relative;
+    top: 35px;
 }
 .flags{
     display: flex;
@@ -259,10 +271,6 @@ h1 {
 }
 .notion{
     margin-top: 19px;
-}
-#vscode{
-    width: 5%;
-    padding-left: 3%;
 }
 .hobbies{
     width: 100%;

@@ -1,5 +1,5 @@
 
-body{
+.description, #square, h1{
     animation: textDown 1200ms forwards ease-in-out;
     transform-origin: top;
 }

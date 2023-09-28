@@ -20,7 +20,7 @@ header {
 h1, h2, h3, p{
     margin: 0;
 }
-p{
+p, .aptitude{
     font-size: 17px;
 }
 a {

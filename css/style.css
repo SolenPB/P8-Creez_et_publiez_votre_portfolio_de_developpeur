@@ -236,9 +236,13 @@ h1 {
 .vscode{
     width: 40%;
 }
+.movavi{
+    width: 40%;
+    border-radius: 30px;
+}
 #vscodeTitle{
     position: relative;
-    top: 35px;
+    top: 50px;
 }
 .flags{
     display: flex;

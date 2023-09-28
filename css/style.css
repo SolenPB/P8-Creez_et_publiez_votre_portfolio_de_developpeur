@@ -3,6 +3,7 @@ body{
     margin: 0;
     font-family: 'Lato', sans-serif;
     color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 header {
     width: 100%;

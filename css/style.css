@@ -156,18 +156,23 @@ h1 {
     padding:40px 0 40px 0;
 }
 .projectItem1{
+    position: relative;
     width: 45%;
+    bottom: 20px;
     padding-left: 5%;
 }
 .projectItem2{
     width: 45%;
-    padding-left: 12.75%;
+    padding-left: 10%;
 }
 .projectItem3{
     width: 50%;
     padding-left: 5%;
 }
 .projectTitle{
+    padding-bottom: 10px;
+}
+.projectResume{
     display: flex;
     flex-direction: column;
 }
@@ -197,7 +202,8 @@ h1 {
 }
 .scan{
     width: 65%;
-    object-fit: contain;
+    height: 335px;
+    object-fit: fill;
     border-radius: 20px;
     margin-top: 20px;
 }

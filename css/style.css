@@ -252,7 +252,10 @@ figcaption{
     width: 70%;
 }
 .vscode{
-    width: 40%;
+    width: 35%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding:10px;
 }
 .movavi{
     width: 40%;

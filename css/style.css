@@ -210,6 +210,9 @@ h1 {
 #about{
     background-color: #22bcff;
 }
+figcaption{
+    font-size: 20px;
+}
 .detailTitle{
     padding-left: 2%;
 }

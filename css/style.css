@@ -10,11 +10,11 @@ header {
     height: 120px;
     display: flex;
     align-items: center;
-    object-fit: contain;
+    object-fit: cover;
     margin: 0;
 }
 #board{
-    object-fit: cover;
+    width: 100%;
 }
 h1, h2, h3, p{
     margin: 0;
@@ -82,8 +82,7 @@ h1 {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    background: linear-gradient(#453bdb, #1d63f0);
-    margin-bottom: 40px;
+    background-color: #010a4f;
 }
 #square{
     width: 14%;
@@ -223,7 +222,7 @@ figcaption{
     margin-top: 30px;
 }
 .languageList{
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -231,7 +230,7 @@ figcaption{
     background-color: white;
     border: 4px solid #453bdb;
     border-radius: 40px;
-    margin-left: 18%;
+    margin-left: 10%;
 }
 .language{
     width: 10%;

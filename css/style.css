@@ -240,7 +240,7 @@ h1 {
     width: 40%;
     border-radius: 30px;
 }
-#vscodeTitle{
+.figTitle{
     position: relative;
     top: 50px;
 }

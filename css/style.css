@@ -160,6 +160,7 @@ h1 {
 .projects{
     width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
     padding:40px 0 40px 0;
 }
@@ -329,18 +330,6 @@ figcaption{
     align-items: center;
     width: 60%;
 }
-.paintIcon{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 65%;
-    margin-left: 10%;
-}
-.bow{
-    width: 95%;
-    border-radius: 150px;
-}
 .joystick{
     width: 100%;
 }
@@ -349,12 +338,24 @@ figcaption{
     margin-top: 30px;
     text-align: center;
 }
-.arts{
-    margin-top: 20px;
+.paintIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin-left: 10%;
 }
 .archery{
     text-align: center;
     margin-top: 40px;
+}
+.bow{
+    width: 95%;
+    border-radius: 150px;
+}
+.arts{
+    margin-top: 20px;
 }
 
 /*Intégration de la section de contact qui représente le footer*/

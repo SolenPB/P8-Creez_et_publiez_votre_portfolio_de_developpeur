@@ -1,3 +1,4 @@
+/*Informations générales de la page*/
 body{
     width: 1440px;
     margin: 0;
@@ -40,6 +41,8 @@ h4{
 .shadow{
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
 }
+
+/*Caractéristiques de la barre de navigation*/
 .navigation{
     position: fixed;
     display: flex;
@@ -68,6 +71,8 @@ h4{
 .navButton li {
     width: 100%;
 }
+
+/*Configuration de la section de présentation*/
 h1 {
     width: 70%;
     text-align: center;
@@ -98,6 +103,8 @@ h1 {
     margin: 0;
     margin-top: 35px;
 }
+
+/*Informations sur la section des diplômes et des compétences acquises*/
 #skills{
     background: linear-gradient(#010a4f, #1d63f0);
 }
@@ -139,6 +146,8 @@ h1 {
     width: 20%;
     margin-bottom: 10px;
 }
+
+/*Caractéristiques de la section du portfolio avec les différents projets*/
 #portfolio{
     width: 100%;
     background: linear-gradient(#1d63f0, #22bcff);
@@ -206,6 +215,8 @@ h1 {
     border-radius: 20px;
     margin-top: 20px;
 }
+
+/*Composantes de la section A propos avec les images d'illustrations*/
 #about{
     background-color: #22bcff;
 }
@@ -345,6 +356,8 @@ figcaption{
     text-align: center;
     margin-top: 40px;
 }
+
+/*Intégration de la section de contact qui représente le footer*/
 #contact{
     background: linear-gradient(#22bcff, #1d63f0);
     padding-bottom: 80px;

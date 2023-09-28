@@ -195,10 +195,10 @@ h1 {
     flex-direction: column;
     margin-top: 20px;
 }
-#plus{
-    display: flex;
-    justify-content: center;
+.symbol{
+    display: inline-block;
     width: 10%;
+    align-content: center;
     font-size: 30px;
     border: #ffffff 3px solid;
     border-radius: 60px;

@@ -103,6 +103,10 @@ h1 {
     margin: 0;
     margin-top: 35px;
 }
+.important{
+    font-size: larger;
+    text-decoration: underline;
+}
 
 /*Informations sur la section des diplômes et des compétences acquises*/
 #skills{
@@ -128,10 +132,6 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.important{
-    font-size: larger;
-    text-decoration: underline;
 }
 .school{
     display: flex;

@@ -68,6 +68,11 @@ h4{
     padding: 0 1% 0 1%;
     margin-right: 25px;
 }
+.navButton:hover{
+    background-color: #ffffff;
+    color: #1d63f0;
+    border: 2px solid #1d63f0;
+}
 .navButton li {
     width: 100%;
 }

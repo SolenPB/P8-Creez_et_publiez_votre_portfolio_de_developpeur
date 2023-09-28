@@ -4,10 +4,10 @@
     transform-origin: top;
 }
 .zoomIn{
-    animation: zoom 1200ms forwards ease-in-out;
+    animation: zoom 800ms forwards ease-in-out;
 }
 .zoomOut{
-    animation: zoomOut 1200ms forwards ease-in-out;
+    animation: zoomOut 800ms forwards ease-in-out;
 }
 @keyframes textDown {
     0%{

@@ -386,7 +386,37 @@ figcaption{
 }
 
 @media screen and (max-width: 994px) and (min-width: 769px){
-    
+
+body{
+    max-width: 994px;
+}
+h1{
+    width: 90%;
+}
+#square{
+    width: 20%;
+}
+.description{
+    width: 50%;
+}
+.skillsTitle{
+    width: 50%;
+}
+.skillsDetails{
+    margin-left: 7%;
+}
+.portfolio{
+    width: 90%;
+}
+.projectItem1{
+    bottom: 27px;
+}
+.projectPictures{
+    align-items: flex-start;
+}
+.contactIcon{
+    width: 80%;
+}
 }
 @media screen and (max-width: 768px) {
     

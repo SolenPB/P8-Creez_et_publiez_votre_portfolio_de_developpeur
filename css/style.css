@@ -384,3 +384,10 @@ figcaption{
     width: 10%;
     font-size: 44px;
 }
+
+@media screen and (max-width: 994px) and (min-width: 769px){
+    
+}
+@media screen and (max-width: 768px) {
+    
+}

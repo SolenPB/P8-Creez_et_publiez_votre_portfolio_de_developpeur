@@ -160,28 +160,11 @@ h1 {
 #projectList{
     width: 100%;
     display: flex;
-    flex-direction: column;
+    margin-top: 60px;
 }
-.projects{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:40px 0 40px 0;
-}
-.projectItem1{
-    position: relative;
-    width: 45%;
-    bottom: 20px;
-    padding-left: 5%;
-}
-.projectItem2{
-    width: 45%;
-    padding-left: 10%;
-}
-.projectItem3{
-    width: 50%;
-    padding-left: 5%;
+.projectItem{
+    width: 30%;
+    padding-left: 3%;
 }
 .projectTitle{
     padding-bottom: 10px;
@@ -195,6 +178,20 @@ h1 {
     flex-direction: column;
     margin-top: 20px;
 }
+.projectPictures{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scan{
+    width: 80%;
+    height: 335px;
+    object-fit: fill;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
 .symbol{
     color: #ffffff;
     font-size: 30px;
@@ -205,19 +202,6 @@ h1 {
 }
 .negative{
     margin-top: 10px;
-}
-.projectPictures{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.scan{
-    width: 65%;
-    height: 335px;
-    object-fit: fill;
-    border-radius: 20px;
-    margin-top: 20px;
 }
 
 /*Composantes de la section A propos avec les images d'illustrations*/
@@ -414,8 +398,14 @@ h1{
 .projectItem2{
     padding-left: 2%;
 }
+.projectResume{
+    width: 90%;
+}
 .projectPictures{
     align-items: flex-start;
+}
+.scan{
+    width: 80%;
 }
 .contactIcon{
     width: 80%;

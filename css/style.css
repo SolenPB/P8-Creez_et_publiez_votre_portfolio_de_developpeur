@@ -411,6 +411,9 @@ h1{
 .projectItem1{
     bottom: 27px;
 }
+.projectItem2{
+    padding-left: 2%;
+}
 .projectPictures{
     align-items: flex-start;
 }

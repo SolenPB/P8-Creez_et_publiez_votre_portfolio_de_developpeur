@@ -160,11 +160,13 @@ h1 {
 #projectList{
     width: 100%;
     display: flex;
+    flex-direction: column;
     margin-top: 60px;
 }
 .projectItem{
-    width: 30%;
-    padding-left: 3%;
+    width: 90%;
+    padding-left: 7%;
+    margin-bottom: 30px;
 }
 .projectTitle{
     padding-bottom: 10px;
@@ -173,25 +175,26 @@ h1 {
     display: flex;
     flex-direction: column;
 }
-.point{
+.illustration{
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
 }
 .projectPictures{
-    width: 95%;
+    width: 75%;
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 .scan{
-    width: 80%;
+    width: 40%;
     height: 335px;
     object-fit: fill;
     border-radius: 20px;
+}
+.point{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
     margin-top: 20px;
 }
-
 .symbol{
     color: #ffffff;
     font-size: 30px;

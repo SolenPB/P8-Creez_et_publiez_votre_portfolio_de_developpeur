@@ -16,3 +16,5 @@ for(let i = 0; i < 6; i++){
         }
     })
 }
+
+const languageList = document.getElementsByClassName("languageList");

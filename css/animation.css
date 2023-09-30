@@ -5,6 +5,7 @@
 }
 .zoomIn{
     animation: zoom 800ms forwards ease-in-out;
+    z-index: 5;
 }
 .zoomOut{
     animation: zoomOut 800ms forwards ease-in-out;

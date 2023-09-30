@@ -43,10 +43,13 @@ h4{
 }
 
 /*Caractéristiques de la barre de navigation*/
+.phoneNav{
+    display: none;
+}
 .navigation{
     position: fixed;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     width: 97%;
     height: 60px;
@@ -141,9 +144,6 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.school{
-    display: flex;
 }
 .oc_image{
     width: 20%;
@@ -403,8 +403,21 @@ figcaption{
 body{
     max-width: 994px;
 }
+.phoneBurger .burgerBtn{
+    display: none;
+}
+.navigation{
+    justify-content: center;
+    padding-left: 2%;
+}
+.navButton{
+    font-size: medium;
+}
 h1{
-    width: 90%;
+    width: 80%;
+}
+#presentation{
+    width: 100%;
 }
 #square{
     width: 20%;
@@ -436,10 +449,95 @@ h1{
 .scan{
     width: 80%;
 }
+.archery{
+    margin-top: 45px;
+}
+.paint{
+    margin: 0;
+    margin-bottom: 40px;
+}
 .contactIcon{
     width: 80%;
 }
 }
 @media screen and (max-width: 768px) {
+
+body{
+    max-width: 768px;
+}
+.phoneNav{
+    width: 100%;
+    background-color: #010a4f;
+}
+.burgerBtn{
+    width: 10%;
+    height: 50px;
+    font-size: 30px;
+    margin: 30px 0 10px 3%;
+    color: white;
+    background-color: #010a4f;
+    border: 2px solid #010a4f;
+}
+.navBurger{
+    color: black;
+    display: none;
+}
+.navigation .navButton{
+    display: none;
+}
+h1{
+    width: 40%;
+    margin: 20px 0 0 2%;
+    padding: 15px;
+}
+#introduction{
+    height: 50px;
+    background-color: #010a4f;
+}
+#presentation{
+    width: 100%;
+    align-items: flex-start;
+}
+#board{
+    display: none;
+}
+#square{
+    width: 25%;
+    height: 180px;
+    margin-left: 11.75%;
+}
+.description{
+    width: 45%;
+    font-size: 20px;
+    margin-left: 3%;
+}
+.diploma{
+    margin: 0;
+    margin-top: 30px;
+}
+.school{
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+.skillsTitle{
+    width: 40%;
+}
+.oc_image{
+    width: 45%;
+}
+.r2_image{
+    width: 30%;
+}
+.skillsDiploma{
+    width: 70%;
+    margin: 0;
+}
+.skillsDetails{
+    width: 90%;
+}
+}
+
+@media screen and (max-width: 375px) {
     
 }

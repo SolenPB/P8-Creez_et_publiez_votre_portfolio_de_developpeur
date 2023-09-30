@@ -60,6 +60,7 @@ h4{
     width: 15%;
     height: 40px;
     color: white;
+    font-size: large;
     background-color: #22bcff;
     text-decoration: none;
     list-style: none;
@@ -225,7 +226,7 @@ figcaption{
     font-size: 20px;
 }
 .detailTitle{
-    width: 30%;
+    width: 25%;
     padding-left: 2%;
 }
 .detailResume{
@@ -266,7 +267,7 @@ figcaption{
 .software{
     display: flex;
     align-items: center;
-    margin-left: 6%;
+    margin-left: 3%;
 }
 .softwareTitle{
     display: flex;
@@ -294,9 +295,9 @@ figcaption{
 }
 .flags{
     display: flex;
-    margin-left: 3%;
     justify-content: space-between;
     align-items: center;
+    margin-left: 2%;
 }
 .europ{
     display: flex;
@@ -329,7 +330,6 @@ figcaption{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-left: 3%;
 }
 .bowIcon{
     display: flex;

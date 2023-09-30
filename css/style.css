@@ -229,33 +229,63 @@ figcaption{
     padding-left: 2%;
 }
 .detailResume{
-    width: 90%;
+    width: 95%;
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
+.detailCoding{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+#first{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#second{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.computer{
+    width: 50%;
+    margin-right: 10%;
+}
+.computer img{
+    width: 100%;
+}
+.blank{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
 .software{
     display: flex;
     align-items: center;
-    margin-left: 8%;
+    margin-left: 6%;
 }
 .softwareTitle{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 70%;
+    font-size: larger;
 }
 .soft{
-    width: 70%;
+    width: 60%;
 }
 .vscode{
-    width: 35%;
+    width: 30%;
     background-color: #ffffff;
     border-radius: 20px;
     padding:10px;
 }
 .movavi{
-    width: 40%;
+    width: 37%;
     border-radius: 30px;
 }
 .figTitle{
@@ -264,7 +294,7 @@ figcaption{
 }
 .flags{
     display: flex;
-    margin-left: 5%;
+    margin-left: 3%;
     justify-content: space-between;
     align-items: center;
 }
@@ -274,7 +304,7 @@ figcaption{
     justify-content: center;
     align-items: center;
     width: 20%;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 .europ img{
     width: 100%;
@@ -284,7 +314,7 @@ figcaption{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:0 0 13px 5%;
+    margin:0 0 13px 2%;
 }
 .asia img{
     width: 90%;

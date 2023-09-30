@@ -172,6 +172,7 @@ h1 {
     padding-bottom: 10px;
 }
 .projectResume{
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -179,7 +180,7 @@ h1 {
     display: flex;
 }
 .projectPictures{
-    width: 75%;
+    width: 70%;
     display: flex;
     align-items: center;
 }
@@ -188,6 +189,7 @@ h1 {
     height: 335px;
     object-fit: fill;
     border-radius: 20px;
+    margin-right: 5%;
 }
 .point{
     width: 25%;
@@ -203,7 +205,13 @@ h1 {
     margin-bottom: 10px;
     padding: 10px;
 }
-.negative{
+.plus{
+    background-color: green;
+}
+.minus{
+    background-color: red;
+}
+.pointResume{
     margin-top: 10px;
 }
 

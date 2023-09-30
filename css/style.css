@@ -326,13 +326,10 @@ figcaption{
 .level{
     margin-top: 20px;
 }
-.notion{
-    margin-top: 19px;
-}
 .hobbies{
     width: 95%;
     display: flex;
-    justify-content: space-between;
+    margin-left: 5%;
 }
 .bowIcon{
     display: flex;
@@ -340,7 +337,7 @@ figcaption{
     justify-content: center;
     align-items: center;
     width: 55%;
-    margin-right: 15%;
+    margin-right: 11%;
 }
 .joystickIcon{
     display: flex;
@@ -351,10 +348,14 @@ figcaption{
 }
 .joystick{
     width: 100%;
+    margin-bottom: 40px;
+}
+.titleIcon{
+    margin-bottom: 25px;
 }
 .paint{
     width: 100%;
-    margin-top: 30px;
+    margin: 30px 0 20px 0;
     text-align: center;
 }
 .paintIcon{
@@ -363,18 +364,14 @@ figcaption{
     justify-content: center;
     align-items: center;
     width: 65%;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 .archery{
-    text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .bow{
     width: 95%;
     border-radius: 150px;
-}
-.arts{
-    margin-top: 20px;
 }
 
 /*Intégration de la section de contact qui représente le footer*/

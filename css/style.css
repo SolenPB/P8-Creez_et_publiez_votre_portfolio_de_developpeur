@@ -398,7 +398,7 @@ figcaption{
     font-size: 44px;
 }
 
-@media screen and (max-width: 994px) and (min-width: 769px){
+@media screen and (max-width: 994px) and (min-width: 768px){
 
 body{
     max-width: 994px;
@@ -462,113 +462,122 @@ h1{
 }
 @media screen and (max-width: 768px) {
 
-body{
-    max-width: 768px;
-}
-.phoneNav{
-    width: 100%;
-    background-color: #010a4f;
-}
-.burgerBtn{
-    width: 10%;
-    height: 50px;
-    font-size: 30px;
-    margin: 30px 0 10px 3%;
-    color: white;
-    background-color: #010a4f;
-    border: 2px solid #010a4f;
-}
-.navBurger{
-    color: black;
-}
-.navigation{
-    display: none;
-}
-h1{
-    width: 40%;
-    margin: 20px 0 0 2%;
-    padding: 15px;
-}
-#introduction{
-    height: 50px;
-    background-color: #010a4f;
-}
-#presentation{
-    width: 100%;
-    align-items: flex-start;
-}
-#board{
-    display: none;
-}
-#square{
-    width: 25%;
-    height: 180px;
-    margin-left: 11.75%;
-}
-.description{
-    width: 45%;
-    font-size: 20px;
-    margin-left: 3%;
-}
-.diploma{
-    margin: 0;
-    margin-top: 30px;
-}
 .school{
-    width: 50%;
     flex-direction: column;
-    align-items: center;
-}
-.skillsTitle{
-    width: 40%;
-}
-.oc_image{
-    width: 45%;
-}
-.r2_image{
-    width: 30%;
-}
-.skillsDiploma{
-    width: 70%;
-    margin: 0;
-}
-.skillsDetails{
-    width: 90%;
-}
-#projectList{
-    margin: 0;
-    margin-top: 30px;
-}
-.projectItem{
-    padding: 0;
-    padding-left: 2%;
-    margin-bottom: 30px;
 }
 .illustration{
     flex-direction: column;
 }
-.projectPictures{
+.detailResume{
     flex-direction: column;
-    align-items: flex-start;
-}
-.scan{
-    width: 65%;
-    margin:20px 0 20px 3%;
-}
-.point{
-    width: 50%;
-    justify-content: center;
-}
-.symbol{
-    width: 7.5%;
-}
-.pointResume{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 }
 
 @media screen and (max-width: 375px) {
-    
+
+    body{
+        max-width: 375px;
+    }
+    .phoneNav{
+        width: 100%;
+        background-color: #010a4f;
+    }
+    .burgerBtn{
+        width: 10%;
+        height: 50px;
+        font-size: 30px;
+        margin: 30px 0 10px 3%;
+        color: white;
+        background-color: #010a4f;
+        border: 2px solid #010a4f;
+    }
+    .navBurger{
+        color: black;
+    }
+    .navigation{
+        display: none;
+    }
+    h1{
+        width: 80%;
+        margin: 20px 0 0 2%;
+        padding: 15px;
+    }
+    #introduction{
+        height: 50px;
+        background-color: #010a4f;
+    }
+    #presentation{
+        width: 100%;
+        align-items: flex-start;
+    }
+    #board{
+        display: none;
+    }
+    #square{
+        width: 25%;
+        height: 180px;
+        margin-left: 11.75%;
+    }
+    .description{
+        width: 45%;
+        font-size: 20px;
+        margin-left: 3%;
+    }
+    .diploma{
+        margin: 0;
+        margin-top: 30px;
+    }
+    .school{
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skillsTitle{
+        width: 40%;
+    }
+    .oc_image{
+        width: 45%;
+    }
+    .r2_image{
+        width: 30%;
+    }
+    .skillsDiploma{
+        width: 70%;
+        margin: 0;
+    }
+    .skillsDetails{
+        width: 90%;
+    }
+    #projectList{
+        margin: 0;
+        margin-top: 30px;
+    }
+    .projectItem{
+        padding: 0;
+        padding-left: 2%;
+        margin-bottom: 30px;
+    }
+    .illustration{
+        flex-direction: column;
+    }
+    .projectPictures{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .scan{
+        width: 65%;
+        margin:20px 0 20px 3%;
+    }
+    .point{
+        width: 50%;
+        justify-content: center;
+    }
+    .symbol{
+        width: 7.5%;
+    }
+    .pointResume{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

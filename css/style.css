@@ -277,14 +277,16 @@ figcaption{
     margin-left: 3%;
 }
 .softwareTitle{
+    width: 27%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
-    font-size: larger;
 }
 .figma{
     width: 25%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
 }
 .vscode{
     width: 30%;

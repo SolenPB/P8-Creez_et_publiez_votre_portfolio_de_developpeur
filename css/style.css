@@ -464,6 +464,15 @@ h1{
 body{
     max-width: 768px;
 }
+.navigation{
+    padding-left: 1.5%;
+}
+#square{
+    width: 28%;
+}
+.description{
+    font-size: 22px;
+}
 .diploma{
     margin-left: 3%;
 }
@@ -484,6 +493,18 @@ body{
 }
 .illustration{
     flex-direction: column;
+}
+.projectPictures{
+    width: 100%;
+    margin-top: 30px;
+}
+.point{
+    width: 100%;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.pointResume{
+    width: 50%;
 }
 .detailResume{
     flex-direction: column;

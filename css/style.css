@@ -464,8 +464,23 @@ h1{
 body{
     max-width: 768px;
 }
+.diploma{
+    margin-left: 3%;
+}
 .school{
     flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.skillsDiploma{
+    width: 90%;
+}
+.skillsDetails{
+    width: 85%;
+    margin: 0;
+}
+.r2_image{
+    width: 15%;
 }
 .illustration{
     flex-direction: column;
@@ -479,7 +494,6 @@ body{
     width: 40%;
 }
 .coding{
-    display: flex;
     margin-top: 20px;
 }
 .software{

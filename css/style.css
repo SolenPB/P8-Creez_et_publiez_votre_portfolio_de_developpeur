@@ -469,6 +469,8 @@ h1{
 .contactIcon{
     width: 50%;
 }
+}
+
 @media screen and (max-width: 768px) {
 
 h1{
@@ -531,6 +533,59 @@ figcaption {
 .contactIcon{
     width: 70%;
 }
-@media screen and (max-width: 375px) {
+}
 
+@media screen and (max-width: 376px){
+
+.navigation{
+    display: none;
+}
+h1{
+    width: 90%;
+    font-size: 24px;
+}
+.description{
+    font-size: 18px;
+}
+.school{
+    flex-direction: column;
+}
+.skillsDiploma{
+    width: 90%;
+}
+.diploma{
+    margin-left: 0;
+}
+.aptitude{
+    width: 90%;
+}
+.skillsDetails{
+    width: 90%;
+}
+.projectItem{
+    padding-left: 6%;
+}
+.illustration{
+    flex-direction: column;
+}
+.projectPictures{
+    width: 100%;
+    flex-direction: column;
+}
+.scan{
+    width: 100%;
+    margin: 0 0 30px 0;
+}
+.point{
+    width: 95%;
+}
+.pointResume{
+    width: 90%;
+}
+.detailTitle{
+    width: 90%;
+}
+.detailResume{
+    flex-direction: column;
+}
 }

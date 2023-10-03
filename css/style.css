@@ -451,6 +451,14 @@ h1{
     margin-right: 0;
     margin-bottom: 20px;
 }
+.fig1{
+    margin-top: 25px;
+}
+.movavi{
+    width: 40%;
+}
+.contactIcon{
+    width: 50%;
 }
 @media screen and (max-width: 768px) {
 

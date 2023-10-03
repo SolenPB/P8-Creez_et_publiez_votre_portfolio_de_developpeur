@@ -452,9 +452,6 @@ h1{
 .projectItem{
     padding-left: 5%;
 }
-.software{
-    margin-left: 15%;
-}
 }
 @media screen and (max-width: 994px) and (min-width: 768px){
 
@@ -516,7 +513,7 @@ h1{
 }
 }
 @media screen and (max-width: 768px) {
-    
+
 .navigation{
     padding-left: 1.5%;
 }

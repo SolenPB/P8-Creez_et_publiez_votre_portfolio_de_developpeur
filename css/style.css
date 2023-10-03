@@ -1,6 +1,5 @@
 /*Informations générales de la page*/
 body{
-    width: 1980px;
     margin: 0;
     font-family: 'Lato', sans-serif;
     color: white;
@@ -284,8 +283,8 @@ figcaption{
 }
 .software{
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin-left: 5%;
 }
 .softwareTitle{
     width: 27%;
@@ -415,12 +414,50 @@ figcaption{
     width: 10%;
     font-size: 44px;
 }
+@media screen and (max-width: 1440px) and (min-width: 995px){
 
+.navigation{
+    width: 95%;
+}
+.navButton{
+    font-size: 16px;
+}
+h1{
+    width: 95%;
+    font-size: 44px;
+}
+
+#square{
+    width: 20%;
+}
+#skills{
+    padding-left: 0;
+}
+.skillsTitle{
+    width: 50%;
+}
+.school{
+    width: 90%;
+    padding-left: 5%;
+}
+.oc_image{
+    width: 40%;
+}
+.r2_image{
+    width: 30%;
+}
+.portTitle{
+    width: 50%;
+}
+.projectItem{
+    padding-left: 5%;
+}
+.software{
+    margin-left: 15%;
+}
+}
 @media screen and (max-width: 994px) and (min-width: 768px){
 
-body{
-    max-width: 994px;
-}
 .phoneBurger .burgerBtn{
     display: none;
 }
@@ -479,10 +516,7 @@ h1{
 }
 }
 @media screen and (max-width: 768px) {
-
-body{
-    max-width: 768px;
-}
+    
 .navigation{
     padding-left: 1.5%;
 }
@@ -546,9 +580,6 @@ body{
 
 @media screen and (max-width: 375px) {
 
-    body{
-        max-width: 375px;
-    }
     .phoneNav{
         width: 100%;
         background-color: #010a4f;

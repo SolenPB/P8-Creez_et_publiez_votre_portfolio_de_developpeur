@@ -19,9 +19,6 @@ header {
 h1, h2, h3, p{
     margin: 0;
 }
-p, .aptitude{
-    font-size: 17px;
-}
 a {
     width: 100%;
     display: flex;
@@ -474,8 +471,66 @@ h1{
 }
 @media screen and (max-width: 768px) {
 
+h1{
+    font-size: 30px;
 }
-
+.description{
+    width: 80%;
+    font-size: 22px;
+}
+.skillsTitle{
+    width: 80%;
+}
+.aptitude{
+    font-size: 18px;
+}
+.skillsDetails p {
+    font-size: 19px;
+}
+.oc_image{
+    width: 40%;
+}
+.r2_image{
+    width: 30%;
+}
+.projectResume p{
+    font-size: 18px;
+}
+.pointResume p{
+    font-size: 18px;
+}
+.coding{
+    flex-direction: column;
+    align-items: center;
+}
+#first{
+    width: 70%;
+    justify-content: space-between;
+    margin: 0;
+}
+#second{
+    width: 98%;
+    justify-content: space-around;
+}
+.computer{
+    width: 30%;
+    margin: 0 0 0 10%;
+}
+figcaption {
+    font-size: 17px;
+}
+.fig1{
+    margin-top: 35px;
+}
+.level{
+    font-size: 18px;
+}
+.hobbies{
+    width: 80%;
+}
+.contactIcon{
+    width: 70%;
+}
 @media screen and (max-width: 375px) {
 
 }

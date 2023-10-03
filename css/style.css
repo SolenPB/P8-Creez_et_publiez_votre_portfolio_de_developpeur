@@ -427,7 +427,9 @@ figcaption{
 @media screen and (max-width: 994px) and (min-width: 768px){
 
 .navButton{
-    font-size: 12px;
+    padding: 0 2% 0 2%;
+    font-size: 14px;
+    text-align: center;
 }
 h1{
     font-size: 36px;

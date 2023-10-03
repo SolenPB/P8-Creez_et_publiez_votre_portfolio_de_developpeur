@@ -61,12 +61,13 @@ h4{
     width: 15%;
     height: 40px;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #22bcff;
     text-decoration: none;
     list-style: none;
     border: 2px solid white;
     border-radius: 30px;
+    padding: 0 1% 0 1%;
 }
 .navButton:hover{
     background-color: #ffffff;
@@ -94,7 +95,7 @@ h1 {
 }
 #square{
     width: 14%;
-    height: 200px;
+    height: 250px;
     background-color: white;
     border-radius: 20px;
     margin-top: 40px;
@@ -216,10 +217,10 @@ h1 {
     padding: 10px;
 }
 .plus{
-    background-color: green;
+    background: linear-gradient(#01c411, #33c708);
 }
 .minus{
-    background-color: red;
+    background: linear-gradient(#e02204, #fa6574);
 }
 .pointResume{
     margin-top: 10px;
@@ -305,8 +306,14 @@ figcaption{
     padding:10px;
 }
 .movavi{
-    width: 37%;
+    width: 35%;
     border-radius: 30px;
+}
+.fig1{
+    margin-top: 15px;
+}
+.fig2{
+    padding-top: 55px;
 }
 .flags{
     width: 90%;

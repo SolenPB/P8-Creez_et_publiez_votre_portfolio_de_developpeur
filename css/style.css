@@ -457,6 +457,18 @@ h1{
 .movavi{
     width: 40%;
 }
+.notion{
+    padding-top: 5px;
+}
+.archery{
+    margin-top: 47px;
+}
+.paint{
+    margin: 0 0 50px 0;
+}
+.titleIcon{
+    margin: 0;
+}
 .contactIcon{
     width: 50%;
 }

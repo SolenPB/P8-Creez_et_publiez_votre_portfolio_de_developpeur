@@ -1,5 +1,5 @@
 
-.description, #square, h1{
+.description, #profil, h1{
     animation: textDown 1500ms forwards ease-in-out;
     transform-origin: top;
 }

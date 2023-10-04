@@ -568,6 +568,12 @@ h1{
 .illustration{
     flex-direction: column;
 }
+.projectResume{
+    width: 100%;
+}
+.projectTitle{
+    width: 100%;
+}
 .projectPictures{
     width: 100%;
     flex-direction: column;
@@ -580,12 +586,95 @@ h1{
     width: 95%;
 }
 .pointResume{
-    width: 90%;
+    width: 100%;
+    text-align: center;
 }
 .detailTitle{
     width: 90%;
 }
 .detailResume{
     flex-direction: column;
+}
+.coding{
+    margin-top: 30px;
+}
+#first{
+    width: 100%;
+}
+#first img{
+    width: 70%;
+}
+#second{
+    margin-top: 20px;
+}
+.software{
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.figma{
+    margin-bottom: 20px;
+}
+.vscode{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.movavi{
+    width: 70%;
+}
+figcaption{
+    font-size: 14px;
+}
+.fig1{
+    margin: 0;
+}
+.fig2{
+    padding: 0;
+}
+.asia{
+    margin-bottom: 5px;
+}
+.asia img{
+    width: 95%;
+    margin-bottom: 10px;
+}
+.level{
+    font-size: 14px;
+}
+.hobbies{
+    width: 90%;
+    margin-top: 30px;
+}
+.bowIcon{
+    width: 80%;
+    margin: 0;
+}
+.bow{
+    margin-bottom: 23px;
+}
+.archery{
+    margin: 0;
+}
+.joystickIcon{
+    width: 95%;
+    margin: 0 0 5px 3%;
+}
+.joystick{
+    margin-bottom: 16px;
+}
+.titleIcon{
+    margin: 0;
+}
+.paintIcon{
+    width: 90%;
+    margin: 0;
+}
+.paint{
+    margin: 0 0 29px 0;
+}
+.contactIcon{
+    width: 90%;
+}
+.contactIcon p{
+    font-size: 18px;
 }
 }

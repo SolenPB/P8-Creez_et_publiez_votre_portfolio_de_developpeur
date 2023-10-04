@@ -538,7 +538,10 @@ figcaption {
 @media screen and (max-width: 376px){
 
 .navigation{
-    display: none;
+    flex-direction: column;
+}
+.navButton{
+    font-size: 12px;
 }
 h1{
     width: 90%;

@@ -196,6 +196,7 @@ h1 {
 }
 .projectPictures{
     width: 70%;
+    height: 530px;
     display: flex;
     align-items: center;
 }
@@ -205,6 +206,11 @@ h1 {
     object-fit: fill;
     border-radius: 20px;
     margin-right: 5%;
+}
+.source{
+    padding-top: 30px;
+    font-size: 18px;
+    font-style: italic;
 }
 .point{
     width: 25%;

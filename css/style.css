@@ -176,7 +176,7 @@ h1 {
 .projectItem{
     width: 90%;
     padding-left: 7%;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 .projectTitle{
     padding-bottom: 10px;
@@ -196,7 +196,6 @@ h1 {
 }
 .projectPictures{
     width: 70%;
-    height: 530px;
     display: flex;
     align-items: center;
 }
@@ -208,8 +207,9 @@ h1 {
     margin-right: 5%;
 }
 .source{
+    width: 70%;
     padding-top: 30px;
-    font-size: 18px;
+    font-size: 20px;
     font-style: italic;
 }
 .point{
@@ -587,6 +587,10 @@ h1{
 }
 .description{
     font-size: 18px;
+}
+.source{
+    width: 90%;
+    font-size: 14px;
 }
 .school{
     flex-direction: column;

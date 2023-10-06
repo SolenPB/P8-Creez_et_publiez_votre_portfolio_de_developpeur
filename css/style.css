@@ -176,7 +176,7 @@ h1 {
 .projectItem{
     width: 90%;
     padding-left: 7%;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .projectTitle{
     padding-bottom: 10px;
@@ -216,9 +216,9 @@ h1 {
     color: #ffffff;
     font-size: 30px;
     border: #ffffff 3px solid;
-    border-radius: 60px;
+    border-radius: 80px;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 8px;
 }
 .plus{
     background: linear-gradient(#01c411, #33c708);

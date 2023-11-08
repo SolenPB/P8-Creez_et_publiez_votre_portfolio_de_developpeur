@@ -1,3 +1,1 @@
-# Correction à faire :
- - Les chemins pour afficher les images doivent commencer par "./" pour fonctionner correctement.
- 
+#Contexte: il s'agit du projet 8 de la formation Développeur web d'OpenClassrooms

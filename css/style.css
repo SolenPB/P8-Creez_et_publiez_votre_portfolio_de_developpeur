@@ -532,16 +532,12 @@ h1{
     align-items: center;
 }
 #first{
-    width: 70%;
+    width: 90%;
     justify-content: space-between;
     margin: 0;
 }
-#second{
-    width: 98%;
-    justify-content: space-around;
-}
 .computer{
-    width: 30%;
+    width: 15%;
     margin: 0 0 0 10%;
 }
 figcaption {

@@ -634,6 +634,9 @@ h1{
 .detailResume{
     flex-direction: column;
 }
+#portfolio{
+    padding: 0;
+}
 .coding{
     margin-top: 30px;
 }
@@ -641,13 +644,7 @@ h1{
     width: 100%;
 }
 #first img{
-    width: 70%;
-}
-#second{
-    margin-top: 20px;
-}
-.computer{
-    padding: 10px;
+    width: 100%;
 }
 .software{
     margin-top: 30px;
@@ -662,6 +659,7 @@ h1{
 }
 .movavi{
     width: 70%;
+    margin: 10px 0 10px 0;
 }
 figcaption{
     font-size: 14px;

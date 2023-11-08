@@ -269,24 +269,18 @@ figcaption{
     flex-direction: column;
 }
 #first{
-    width: 35%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-left: 6%;
-}
-#second{
-    width: 55%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 .coding{
     display: flex;
 }
 .computer{
     width: 50%;
-    margin-left: 5%;
+    margin-left: 15%;
 }
 .computer img{
     width: 100%;
